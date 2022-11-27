@@ -52,6 +52,7 @@ print_f.s - второй файл (print_f.с)
 [output.txt](output.txt) - файл с выходными данными
 
 Файлы для тестов:
+
 [input-1.txt](input-1.txt)
 
 [input-2.txt](input-2.txt)
