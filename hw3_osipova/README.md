@@ -8,6 +8,10 @@
 Решение на 4 балла на C содержится в файле на 8 баллов - [8.c](8.c)
 Программа на ассемблере на 4 балла с соответстующими комментариями - [8.s](8.s)
 
+```
+gcc -masm=intel -fno-asynchronous-unwind-tables -fno-jump-tables -fno-stack-protector -fno-exceptions -S code-on-c.c
+```
+
 Тесты и результаты 
 
 ![test-1.png](test-1.png)
@@ -46,6 +50,18 @@ print_f.s - второй файл (print_f.с)
 [input.txt](input.txt) - файл с входными данными
 
 [output.txt](output.txt) - файл с выходными данными
+
+Файлы для тестов:
+[input-1.txt](input-1.txt)
+
+[input-2.txt](input-2.txt)
+
+[input-3.txt](input-3.txt)
+
+[input-4.txt](input-4.txt)
+
+[input-5.txt](input-5.txt)
+
 
 Разделение на файлы представленно в папке "6 баллов". 
 
